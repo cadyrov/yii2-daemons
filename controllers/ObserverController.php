@@ -1,5 +1,5 @@
 <?php
-namespace cadyrov\saemons\controllers;
+namespace cadyrov\daemons\controllers;
 use cadyrov\daemons\Daemon;
 
 abstract class ObserverController extends Daemon
