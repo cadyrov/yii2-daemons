@@ -52,9 +52,9 @@ class ObserverController extends \cadyrov\daemons\controllers\ObserverController
 ```
 2. No one checks the Watcher. Watcher should run continuously. Add it to your crontab:
 ```
-* * * * * /path/to/yii/project/yii watcher-daemon --demonize=1
+* * * * * /path/to/yii/project/yii observer-daemon --demonize=1
 ```
-Watcher can't start twice, only one instance can work in the one moment.
+Observer can't start twice, only one instance can work in the one moment.
 
 Usage
 -----
